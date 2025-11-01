@@ -4,7 +4,7 @@ import React from 'react';
 import Hero from '../components/Hero';
 import PracticeAreas from '../components/PracticeAreas';
 import AboutBlurb from '../components/AboutBlurb';
-import TrustSection from '../components/TrustSection';
+import TeamBlurb from '../components/TeamBlurb';
 
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
       <Hero />
       <AboutBlurb />
       <PracticeAreas />
-      <TrustSection />
+      <TeamBlurb />
     </div>
   );
 };

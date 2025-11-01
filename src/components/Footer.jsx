@@ -1,4 +1,4 @@
-// src/components/Footer.js
+// src/components/Footer.jsx
 
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -12,7 +12,15 @@ const Footer = () => {
         {/* Column 1: Brand */}
         <div>
           <h3 className="text-2xl font-bold text-white mb-4">TrustLex Partners</h3>
-          <p>A solutions-oriented law firm for a complex world.</p>
+          {/* Slogan updated */}
+          <p>Navigating the law with clarity and care.</p>
+          {/* Email added */}
+          <a 
+            href="mailto:trustlexpartners@gmail.com" 
+            className="block mt-4 hover:text-white break-words"
+          >
+            trustlexpartners@gmail.com
+          </a>
         </div>
 
         {/* Column 2: Quick Links */}
@@ -29,10 +37,10 @@ const Footer = () => {
         {/* Column 3: Locations */}
         <div>
           <h4 className="text-lg font-semibold text-white mb-4">Locations</h4>
+          {/* Locations updated */}
           <ul className="space-y-2">
             <li>Delhi</li>
-            <li>Mumbai</li>
-            <li>Bengaluru</li>
+            <li>Uttarakhand</li>
           </ul>
         </div>
 
