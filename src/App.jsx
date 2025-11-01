@@ -2,7 +2,10 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import About from './pages/About';
+import People from './pages/People';
+import Expertise from './pages/Expertise';
+import Contact from './pages/Contact';
 // We will create these components in the next steps
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -23,9 +26,11 @@ function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* Add other pages here when you build them */}
-            {/* <Route path="/about" element={<About />} /> */}
-            {/* <Route path="/contact" element={<Contact />} /> */}
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/people" element={<People />} />
+            <Route path="/expertise" element={<Expertise />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
         

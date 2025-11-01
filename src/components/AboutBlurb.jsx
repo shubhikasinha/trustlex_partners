@@ -16,9 +16,7 @@ const AboutBlurb = () => {
         
         <div className="text-lg text-gray-700 space-y-6 text-left md:text-center">
           <p>
-            We are one of India’s leading full-service law firms, set up in 2020, 
-            serving a wide spectrum of clients drawn from multinationals, 
-            publicly-listed companies, and privately-owned businesses.
+          At Trustlex Partners, we believe good legal advice should be clear, practical, and built on trust. Our goal is simple: to help you solve your legal issues with confidence and peace of mind.We know that dealing with legal matters can feel overwhelming. That’s why we take the time to listen, understand your situation, and guide you step by step... At Trustlex Partners, we’re not just your lawyers—we’re your partners in navigating the law with clarity and care
           </p>
           <p>
             Recognized for our legal prowess and extensive expertise, TrustLex Partners 
