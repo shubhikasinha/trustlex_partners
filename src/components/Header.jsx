@@ -1,6 +1,5 @@
 // src/components/Header.js
 
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -19,8 +18,16 @@ const Header = () => {
         {/* Logo */}
         <div className="flex">
           <Link to="/" className="flex items-center">
-            <img src="/logo.jpeg" alt="tp" className="h-12 w-auto" />
-            <img src="/name.jpeg" alt="tp" className="h-8 w-auto ml-2 mt-2" />
+            <img 
+              src={`${import.meta.env.BASE_URL}logo.jpeg`} 
+              alt="tp" 
+              className="h-12 w-auto" 
+            />
+            <img 
+              src={`${import.meta.env.BASE_URL}name.jpeg`} 
+              alt="tp" 
+              className="h-8 w-auto ml-2 mt-2" 
+            />
           </Link>
         </div>
 

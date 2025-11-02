@@ -1,6 +1,5 @@
 // src/pages/Home.js
 
-import React from 'react';
 import Hero from '../components/Hero';
 import PracticeAreas from '../components/PracticeAreas';
 import AboutBlurb from '../components/AboutBlurb';
