@@ -1,7 +1,5 @@
 // src/pages/About.jsx
 
-import React from 'react';
-
 const About = () => {
   return (
     <div className="bg-white py-20">

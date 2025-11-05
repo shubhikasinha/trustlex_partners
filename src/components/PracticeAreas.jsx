@@ -1,6 +1,5 @@
 // src/components/PracticeAreas.jsx
 
-import React from 'react';
 import { Link } from 'react-router-dom'; // Link ko import karein
 import { practiceAreas } from '../data/practiceAreasData'; // Aapki data file se import karein
 
@@ -38,7 +37,6 @@ const PracticeAreas = () => {
               </Link>
             </div>
           ))}
-
         </div>
       </div>
     </section>

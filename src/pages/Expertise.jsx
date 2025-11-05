@@ -1,6 +1,5 @@
 // src/pages/Expertise.jsx
 
-import React from 'react';
 import { practiceAreas } from '../data/practiceAreasData'; // Import practice areas data
 
 // Reusable card for practice areas

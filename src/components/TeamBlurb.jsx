@@ -1,6 +1,5 @@
 // src/components/TeamBlurb.jsx
 
-import React from 'react';
 import { Link } from 'react-router-dom';
 // teamData.js se humne partners ki list import ki
 import { team } from '../data/teamData'; 

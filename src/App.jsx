@@ -1,6 +1,5 @@
 // src/App.js
 
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './pages/About';
 import People from './pages/People';
@@ -15,7 +14,7 @@ import Home from './pages/Home';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/trustlex/'>
       {/* We use flex-col and min-h-screen to make the footer
           stick to the bottom of the page, even on short pages. */}
       <div className="flex flex-col min-h-screen bg-white">
@@ -25,7 +24,6 @@ function App() {
         {/* The 'main' content grows to fill the available space */}
         <main className="flex-grow">
           <Routes>
-            <Route path="/" element={<Home />} />
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/people" element={<People />} />

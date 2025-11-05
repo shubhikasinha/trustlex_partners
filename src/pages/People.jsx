@@ -1,6 +1,5 @@
 // src/pages/People.jsx
 
-import React from 'react';
 import { team } from '../data/teamData'; // Import team data
 
 // Reusable card component for each partner
