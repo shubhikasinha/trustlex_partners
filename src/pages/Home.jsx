@@ -3,7 +3,7 @@
 import Hero from '../components/Hero';
 import PracticeAreas from '../components/PracticeAreas';
 import AboutBlurb from '../components/AboutBlurb';
-import TeamBlurb from '../components/TeamBlurb';
+import TrustSection from '../components/TrustSection';
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
       <Hero />
       <AboutBlurb />
       <PracticeAreas />
-      <TeamBlurb />
+      <TrustSection />
     </div>
   );
 };
